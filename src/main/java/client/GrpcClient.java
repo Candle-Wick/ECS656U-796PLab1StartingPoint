@@ -21,7 +21,7 @@ public class GrpcClient {
                 {13, 14, 15, 16}}; 
 
 	int B[][] = { {2, 3, 4, 5}, 
-          {6, 67, 8, 9}, 
+          {6, 7, 8, 9}, 
           {10, 11, 12, 13},
           {14, 15, 16, 17}};
 	MatrixReply A3M1=stub.multiplyBlock(MatrixRequest.newBuilder()//First Result Block Calculation
